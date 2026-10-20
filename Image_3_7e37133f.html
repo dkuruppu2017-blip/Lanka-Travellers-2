@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&amp;family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"surface-dim":"#d2dcd6","surface-container":"#e6f0ea","tertiary":"#003530","surface-container-lowest":"#ffffff","surface-tint":"#336856","primary-fixed":"#b6eed7","on-primary-fixed":"#002117","error-container":"#ffdad6","on-secondary-fixed":"#2f1500","on-background":"#151d1a","inverse-primary":"#9bd2bb","on-tertiary-fixed-variant":"#005049","on-tertiary-fixed":"#00201d","on-secondary-fixed-variant":"#6e3900","on-tertiary-container":"#55c4b6","on-error-container":"#93000a","error":"#ba1a1a","secondary":"#904d00","on-secondary-container":"#663500","secondary-container":"#fe932c","surface":"#f2fcf5","on-primary-fixed-variant":"#18503f","surface-bright":"#f2fcf5","on-primary-container":"#88bea8","surface-container-high":"#e1ebe4","inverse-surface":"#29322e","surface-variant":"#dbe5de","secondary-fixed-dim":"#ffb77d","outline":"#707974","on-surface":"#151d1a","on-surface-variant":"#404944","surface-container-low":"#ecf6ef","primary":"#003628","primary-fixed-dim":"#9bd2bb","inverse-on-surface":"#e9f3ec","tertiary-fixed-dim":"#6bd8cb","on-error":"#ffffff","on-tertiary":"#ffffff","background":"#f2fcf5","on-primary":"#ffffff","tertiary-container":"#004e47","tertiary-fixed":"#89f5e7","primary-container":"#164e3d","on-secondary":"#ffffff","outline-variant":"#c0c9c3","secondary-fixed":"#ffdcc3","surface-container-highest":"#dbe5de"},borderRadius:{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},spacing:{"gutter-mobile":"1rem","space-sm":"0.5rem","space-xl":"2.5rem","margin-tablet":"2rem","margin-mobile":"1.25rem","gutter":"1.5rem","space-lg":"1.5rem","margin":"3rem","space-md":"1rem","space-xs":"0.25rem"},fontFamily:{"body-md":["Plus Jakarta Sans"],"body-sm":["Plus Jakarta Sans"],"headline-xl-mobile":["Playfair Display"],"headline-xl":["Playfair Display"],"headline-sm":["Playfair Display"],"body-lg":["Plus Jakarta Sans"],"label-sm":["Plus Jakarta Sans"],"display-lg-mobile":["Playfair Display"],"label-lg":["Plus Jakarta Sans"],"display-lg":["Playfair Display"],"headline-md":["Playfair Display"],"title-md":["Plus Jakarta Sans"],"title-lg":["Plus Jakarta Sans"]},fontSize:{"body-md":["0.9375rem",{"lineHeight":"1.5rem","fontWeight":"400"}],"body-sm":["0.8125rem",{"lineHeight":"1.25rem","fontWeight":"400"}],"headline-xl-mobile":["1.75rem",{"lineHeight":"2.25rem","letterSpacing":"-0.01em","fontWeight":"600"}],"headline-xl":["2.5rem",{"lineHeight":"3rem","letterSpacing":"-0.015em","fontWeight":"600"}],"headline-sm":["1.25rem",{"lineHeight":"1.75rem","fontWeight":"600"}],"body-lg":["1.125rem",{"lineHeight":"1.75rem","fontWeight":"400"}],"label-sm":["0.6875rem",{"lineHeight":"1rem","letterSpacing":"0.05em","fontWeight":"700"}],"display-lg-mobile":["2.25rem",{"lineHeight":"2.75rem","letterSpacing":"-0.01em","fontWeight":"600"}],"label-lg":["0.875rem",{"lineHeight":"1.25rem","letterSpacing":"0.02em","fontWeight":"600"}],"display-lg":["3.5rem",{"lineHeight":"4rem","letterSpacing":"-0.02em","fontWeight":"600"}],"headline-md":["1.75rem",{"lineHeight":"2.25rem","fontWeight":"500"}],"title-md":["1rem",{"lineHeight":"1.5rem","fontWeight":"600"}],"title-lg":["1.125rem",{"lineHeight":"1.625rem","fontWeight":"700"}]}}}};</script></head><body class="bg-surface font-body-md text-on-surface antialiased"><header class="fixed top-0 w-full z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(22,78,61,0.06)]"><div class="w-full bg-primary text-on-primary"><div class="max-w-[1280px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin h-10 flex items-center justify-between font-label-sm text-label-sm"><div class="flex items-center gap-space-md"><span class="hidden sm:inline-flex items-center gap-space-xs text-on-primary/90"><span class="material-symbols-outlined text-[14px]">support_agent</span>Emergency: +94 11 234 5678</span><span class="hidden lg:inline text-on-primary/40">•</span><span class="hidden lg:inline text-on-primary/90">info@lankatravellers.com</span><span class="hidden lg:inline text-on-primary/40">•</span><span class="inline-flex items-center gap-space-xs bg-primary-container text-on-primary px-space-xs py-0.5 rounded-full font-label-sm text-label-sm"><span class="material-symbols-outlined text-[13px] text-tertiary-fixed">verified</span>SLTDA/SQA/TA/01482</span></div><div class="flex items-center gap-space-md"><div class="flex items-center gap-space-xs"><label class="sr-only" for="currency-select">Currency</label><select class="bg-transparent text-on-primary font-label-sm text-label-sm py-0.5 focus:outline-none cursor-pointer" id="currency-select"><option class="text-on-surface bg-surface" value="USD">USD ($)</option><option class="text-on-surface bg-surface" value="EUR">EUR (€)</option><option class="text-on-surface bg-surface" value="GBP">GBP (£)</option><option class="text-on-surface bg-surface" value="LKR">LKR (Rs)</option></select></div><span class="text-on-primary/40">|</span><div class="flex items-center gap-space-xs"><label class="sr-only" for="lang-select">Language</label><select class="bg-transparent text-on-primary font-label-sm text-label-sm py-0.5 focus:outline-none cursor-pointer" id="lang-select"><option class="text-on-surface bg-surface" value="EN">EN</option><option class="text-on-surface bg-surface" value="FR">FR</option><option class="text-on-surface bg-surface" value="DE">DE</option></select></div></div></div></div><div class="h-20 max-w-[1280px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md"><a class="flex items-center gap-space-sm py-space-xs" data-path="home" href="#"><img alt="Lanka Travellers Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1UUslheAapryqjpFTV7sp8bvFldAZMEOXV9whNiNSANCdEUJZD1NJ-TdrlFfi6AJLxTLtUIwbNsGUp4I5sgoCvHo2llyTXJTX1ouRB6YMCaJFzy7TVeo97I_eexH7SVRWtOEgmFR3kd7GLJuYRvWUEaxLmToHNXiSY0iP-4nMDpV_EnfBqINdfMVfu9lLsVyZu6EEomc8f0HEoJsiOlnFXqKZWfHd3ayyQ9v-TNAGqY-TYv0XJB7ZuMESQ"/><span class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary tracking-tight leading-none">Lanka Travellers</span><span class="font-label-sm text-label-sm text-secondary tracking-widest uppercase">Ceylon Journeys</span></span></a></div><nav class="hidden xl:flex items-center gap-space-xs p-1 bg-surface-container-low rounded-full" data-active-classes="bg-primary-container text-on-primary font-title-md rounded-full shadow-[0_2px_8px_rgba(22,78,61,0.12)]"><a class="px-space-md py-space-xs rounded-full font-title-md text-title-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="home" href="#">Home</a><div class="relative group"><button class="flex items-center gap-1 px-space-md py-space-xs rounded-full font-title-md text-title-md text-on-surface-variant hover:text-on-surface transition-colors" type="button">Destinations<span class="material-symbols-outlined text-[18px] transition-transform group-hover:rotate-180">expand_more</span></button><div class="absolute left-0 top-full mt-2 w-56 p-space-sm bg-surface-container-lowest rounded-xl shadow-[0_12px_32px_rgba(22,78,61,0.12)] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all flex flex-col gap-1"><a class="px-space-md py-space-xs rounded-lg font-body-sm text-body-sm text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all" data-path="destination-sigiriya" href="#">Sigiriya &amp; Rock Fortress</a><a class="px-space-md py-space-xs rounded-lg font-body-sm text-body-sm text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all" data-path="destination-ella" href="#">Ella &amp; Central Highlands</a><a class="px-space-md py-space-xs rounded-lg font-body-sm text-body-sm text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all" data-path="destination-galle" href="#">Galle &amp; Southern Coast</a><a class="px-space-md py-space-xs rounded-lg font-body-sm text-body-sm text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all" data-path="destination-kandy" href="#">Kandy &amp; Sacred Valley</a></div></div><a class="px-space-md py-space-xs rounded-full font-title-md text-title-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="travel-packages" href="#">Travel Packages</a><a aria-current="page" class="px-space-md py-space-xs transition-colors bg-primary-container text-on-primary font-title-md rounded-full shadow-[0_2px_8px_rgba(22,78,61,0.12)]" data-path="about-us" href="#">About Us</a><a class="px-space-md py-space-xs rounded-full font-title-md text-title-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="contact-us" href="#">Contact Us</a></nav><div class="flex items-center gap-space-md"><div class="hidden md:flex items-center gap-space-sm pl-space-xs pr-space-md py-space-xs bg-surface-container rounded-full"><div class="relative"><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-2 ring-surface-container-lowest" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCsrKc6LbHJ_Spxldm3KWF2we8L_Xn-D76xBIId8eWPBWjY7qfdM1qr-zCiYFfNAvX7ekMXvx5h05QgS1cgkTufhl01wf33qnjM3ZmvF4NGNiJ9lWFdsTAwoAQ6BWZ6eTNr1Wn5elUwnQOfXpCmdnz0sZmeFxaDSNRCQ_mD2yHcFj7uN7wjUjpDt0TqhwC-_9-EaOfFjOhuDIWLVFV3ROKhc4TtWjuprPgGfn2sW236qSWii18AZf8D1A"/><span class="absolute bottom-0 right-0 w-2.5 h-2.5 bg-primary rounded-full ring-2 ring-surface"></span></div><div class="flex flex-col text-left"><span class="font-label-sm text-label-sm text-on-surface leading-tight">Travel Concierge</span><span class="font-label-sm text-[10px] text-primary-container font-semibold uppercase tracking-wider">Online Advisor</span></div></div><a class="inline-flex items-center gap-space-xs bg-secondary-container text-on-secondary-container hover:bg-secondary hover:text-on-secondary transition-all font-title-md text-title-md px-space-lg py-2.5 rounded-full shadow-[0_4px_16px_rgba(254,147,44,0.3)]" data-path="plan-custom-trip" href="#"><span>Plan Custom Trip</span><span class="material-symbols-outlined text-[18px]">arrow_forward</span></a></div></div></header><main class="w-full pt-[120px] bg-surface min-h-[calc(100vh-120px)]"><div class="flex flex-col w-full">
+<!-- Immersive Editorial Top Banner / Hero -->
+<section class="relative w-full -mt-[120px] pt-[140px] pb-24 md:pb-32 bg-primary text-on-primary overflow-hidden">
+<!-- Atmospheric Ambient Scenic Background with Soft Botanical Scrim -->
+<div class="absolute inset-0 bg-cover bg-center mix-blend-soft-light opacity-35 scale-105 transition-transform duration-1000 ease-out" data-alt="Stunning aerial panoramic landscape of Sri Lanka misty emerald tea plantation hills rolling down into ancient rocky forests at sunrise with soft golden atmospheric glow and subtle morning fog, high luxury editorial photography" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAiSai4hMgmWcYwhUoFVb85y_5DxyVy4mo6uFh_3Jpos3tR0FVcFkgfIsHfBaa3NgG9ksF8D3-mYcGfm7ybFIlAd-HHbjMIj2ERKrWkxiNqq2Y61Zz3QSCj6ugwNHC5g6lSvWnXLkrIZrpG2eSsSmA7jZAptsV9yogSVsQ0O5LDbzG9sVVqJZsqP_2vv9nY4K5pj_0O-XUfxWNv4mWm5AXOqvLhFD-WKomwc-6Ch5mTv2-24TKMrrHl-w')">
+</div>
+<div class="absolute inset-0 bg-gradient-to-b from-primary/95 via-primary/80 to-surface"></div>
+<div class="relative max-w-[1280px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin">
+<!-- Breadcrumb & Licensing Ribbon -->
+<div class="flex flex-wrap items-center gap-space-xs text-on-primary/80 font-label-sm text-label-sm uppercase tracking-widest mb-space-md">
+<span>Ceylon Journeys</span>
+<span>•</span>
+<span class="text-tertiary-fixed font-semibold">About Our Heritage</span>
+<span class="ml-auto inline-flex items-center gap-1.5 px-space-sm py-1 bg-primary-container text-on-primary rounded-full shadow-sm">
+<span class="material-symbols-outlined text-[15px] text-tertiary-fixed" style="font-variation-settings: 'FILL' 1;">verified</span>
+          SLTDA Licensed DMC #SLTDA/SQA/TA/01482
+        </span>
+</div>
+<!-- Hero Header & Narrative Introduction -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-end pt-4 pb-8">
+<div class="lg:col-span-8 flex flex-col gap-space-md">
+<span class="font-label-sm text-label-sm text-secondary-fixed uppercase tracking-[0.25em] font-bold">Rooted in Colombo • Inspired by Ceylon</span>
+<h1 class="font-headline-xl text-headline-xl md:text-[3.25rem] md:leading-[3.75rem] text-on-primary font-headline-xl font-normal tracking-tight">
+            Weaving Unforgettable <br class="hidden sm:inline"/>
+<span class="italic font-light text-primary-fixed">Ceylon Journeys</span> With Soul.
+          </h1>
+<p class="font-body-lg text-body-lg text-on-primary/90 max-w-2xl leading-relaxed">
+            Founded in Colombo by passionate local travel custodians, Lanka Travellers is an officially certified Sri Lankan destination management agency dedicated to revealing the true heart, soul, and timeless heritage of our paradise island.
+          </p>
+</div>
+<!-- Metric Accent Column -->
+<div class="lg:col-span-4 flex flex-col gap-space-md bg-surface-container-lowest/10 backdrop-blur-md p-space-lg rounded-xl text-on-primary shadow-lg">
+<div class="flex items-center justify-between pb-space-sm border-b-0">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary-fixed">Island Footprint</span>
+<span class="material-symbols-outlined text-secondary-container">spa</span>
+</div>
+<div class="grid grid-cols-2 gap-space-md">
+<div>
+<div class="font-display-lg-mobile text-display-lg-mobile text-secondary-fixed leading-none font-headline-sm">15+</div>
+<div class="font-body-sm text-body-sm text-on-primary/80 mt-1">Years of Local Mastery</div>
+</div>
+<div>
+<div class="font-display-lg-mobile text-display-lg-mobile text-secondary-fixed leading-none font-headline-sm">100%</div>
+<div class="font-body-sm text-body-sm text-on-primary/80 mt-1">Bespoke Customization</div>
+</div>
+</div>
+<p class="font-label-sm text-label-sm text-on-primary/75 italic">
+            "Tropical Modernism meets warm, unscripted Sri Lankan hospitality."
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 2: Vision & Mission Split Showcase with Bawa-Inspired Warm Architecture -->
+<section class="w-full py-16 md:py-24 bg-surface">
+<div class="max-w-[1280px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin">
+<!-- Asymmetric Section Header -->
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-space-xl gap-space-md">
+<div>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest font-bold">Our Guiding Compass</span>
+<h2 class="font-headline-xl text-headline-xl text-primary mt-1 font-headline-sm">Ecosystem Custodians &amp; Culture Keepers</h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md">
+          Guided by sustainable eco-hospitality, each itinerary honours ancient irrigation works, rainforest biodiversity, and regional village livelihoods.
+        </p>
+</div>
+<!-- Vision & Mission Dual Pillars -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-lg">
+<!-- Vision Statement Card -->
+<div class="group relative flex flex-col justify-between p-space-xl rounded-xl bg-surface-container-lowest shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden">
+<div class="absolute -right-8 -top-8 w-40 h-40 bg-primary-fixed/30 rounded-full blur-2xl pointer-events-none group-hover:scale-125 transition-transform duration-500"></div>
+<div class="relative z-10 flex flex-col gap-space-md">
+<div class="w-12 h-12 rounded-full bg-primary-container text-on-primary flex items-center justify-center shadow-sm">
+<span class="material-symbols-outlined text-[24px]" style="font-variation-settings: 'FILL' 1;">visibility</span>
+</div>
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary font-bold">Our Vision</span>
+<h3 class="font-headline-md text-headline-md text-primary mt-1">Safeguarding Sri Lanka’s Sanctity</h3>
+</div>
+<blockquote class="font-body-lg text-body-lg text-on-surface leading-relaxed italic relative pl-4 border-l-2 border-primary/20">
+              "To be the most trusted, sustainable, and culturally immersive travel company in Sri Lanka, creating lifelong memories while safeguarding our natural ecosystems and heritage."
+            </blockquote>
+</div>
+<div class="relative z-10 mt-space-lg pt-space-md flex items-center gap-space-sm text-on-surface-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-secondary text-[18px]">nature_people</span>
+<span>Committed to Zero Trace wilderness exploration</span>
+</div>
+</div>
+<!-- Mission Statement Card -->
+<div class="group relative flex flex-col justify-between p-space-xl rounded-xl bg-surface-container-low shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden">
+<div class="absolute -right-8 -bottom-8 w-40 h-40 bg-secondary-fixed/40 rounded-full blur-2xl pointer-events-none group-hover:scale-125 transition-transform duration-500"></div>
+<div class="relative z-10 flex flex-col gap-space-md">
+<div class="w-12 h-12 rounded-full bg-secondary-container text-on-secondary-container flex items-center justify-center shadow-sm">
+<span class="material-symbols-outlined text-[24px]">flag</span>
+</div>
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-bold">Our Mission</span>
+<h3 class="font-headline-md text-headline-md text-primary mt-1">Heartfelt Hospitality &amp; Ethical Value</h3>
+</div>
+<blockquote class="font-body-lg text-body-lg text-on-surface leading-relaxed italic relative pl-4 border-l-2 border-secondary/30">
+              "To deliver tailored, safe, and authentic journeys through unmatched local hospitality, certified chauffeur guides, fair pricing, and active community enrichment."
+            </blockquote>
+</div>
+<div class="relative z-10 mt-space-lg pt-space-md flex items-center gap-space-sm text-on-surface-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-primary text-[18px]">verified_user</span>
+<span>100% transparent pricing with direct villager benefit</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 3: Why Choose Lanka Travellers? (Core Pillars & Differentiators) -->
+<section class="w-full py-16 md:py-24 bg-surface-container-high/40">
+<div class="max-w-[1280px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin">
+<div class="text-center max-w-3xl mx-auto mb-space-xl">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-[0.2em] font-bold">The Ceylon Standard</span>
+<h2 class="font-headline-xl text-headline-xl text-primary mt-2">Why Discerning Explorers Trust Us</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-sm leading-relaxed">
+          From tranquil high-altitude tea trails to sun-drenched colonial bastions, explore our unwavering pillars of boutique safety, authenticity, and ethics.
+        </p>
+</div>
+<!-- 6 Pillars Bento Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-lg">
+<!-- Pillar 1 -->
+<div class="flex flex-col p-space-lg rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-all duration-300">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-primary mb-space-md">
+<span class="material-symbols-outlined text-[22px]">explore</span>
+</div>
+<span class="font-label-sm text-label-sm text-secondary font-bold mb-1">01. Unrivaled Local Expertise</span>
+<h3 class="font-title-lg text-title-lg text-primary mb-2">Native Island Intuition</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Born and raised on the island, our regional specialists know every hidden waterfall, off-the-radar spice garden, and secluded golden cove that guidebooks miss.
+          </p>
+</div>
+<!-- Pillar 2 -->
+<div class="flex flex-col p-space-lg rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-all duration-300">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-primary mb-space-md">
+<span class="material-symbols-outlined text-[22px]" style="font-variation-settings: 'FILL' 1;">shield</span>
+</div>
+<span class="font-label-sm text-label-sm text-secondary font-bold mb-1">02. Fully Licensed &amp; Insured</span>
+<h3 class="font-title-lg text-title-lg text-primary mb-2">Government Endorsed</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Registered with the Sri Lanka Tourism Development Authority (SLTDA License #SLTDA/SQA/TA/01482) with full public liability coverage for complete peace of mind.
+          </p>
+</div>
+<!-- Pillar 3 -->
+<div class="flex flex-col p-space-lg rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-all duration-300">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-primary mb-space-md">
+<span class="material-symbols-outlined text-[22px]">person_pin_circle</span>
+</div>
+<span class="font-label-sm text-label-sm text-secondary font-bold mb-1">03. Private Chauffeur Guides</span>
+<h3 class="font-title-lg text-title-lg text-primary mb-2">First-Class Companions</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Government-certified English and multilingual chauffeur guides rigorously trained in wilderness first aid, defensive hill driving, and deep historical narration.
+          </p>
+</div>
+<!-- Pillar 4 -->
+<div class="flex flex-col p-space-lg rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-all duration-300">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-primary mb-space-md">
+<span class="material-symbols-outlined text-[22px]">tune</span>
+</div>
+<span class="font-label-sm text-label-sm text-secondary font-bold mb-1">04. 100% Tailor-Made Flexibility</span>
+<h3 class="font-title-lg text-title-lg text-primary mb-2">Your Pacing, Your Rhythm</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Every itinerary is personalized around your wellness preferences, culinary dietary requirements, photography goals, and family travel requirements.
+          </p>
+</div>
+<!-- Pillar 5 -->
+<div class="flex flex-col p-space-lg rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-all duration-300">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-primary mb-space-md">
+<span class="material-symbols-outlined text-[22px]">loyalty</span>
+</div>
+<span class="font-label-sm text-label-sm text-secondary font-bold mb-1">05. Fair Price Guarantee</span>
+<h3 class="font-title-lg text-title-lg text-primary mb-2">Direct Local Value</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Direct relationships with premier eco-resorts and village artisans eliminate costly international intermediaries, passing genuine value directly to you.
+          </p>
+</div>
+<!-- Pillar 6 -->
+<div class="flex flex-col p-space-lg rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-all duration-300">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-secondary mb-space-md">
+<span class="material-symbols-outlined text-[22px]">volunteer_activism</span>
+</div>
+<span class="font-label-sm text-label-sm text-secondary font-bold mb-1">06. Responsible &amp; Eco-Conscious</span>
+<h3 class="font-title-lg text-title-lg text-primary mb-2">5% For Nature &amp; Schools</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            5% of all booking profits directly fund local rural schools and wild elephant corridor conservation initiatives across Polonnaruwa and Udawalawe.
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 4: Comprehensive Services Offered Mosaic -->
+<section class="w-full py-16 md:py-24 bg-surface">
+<div class="max-w-[1280px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-space-xl gap-space-md">
+<div>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest font-bold">Curated Portfolios</span>
+<h2 class="font-headline-xl text-headline-xl text-primary mt-1">Our Signature Travel Offerings</h2>
+</div>
+<a class="inline-flex items-center gap-space-xs text-primary font-title-md text-title-md hover:text-primary-container transition-colors" data-path="travel-packages" href="#">
+<span>View All Available Packages</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-lg">
+<!-- Service Card 1 -->
+<div class="group relative rounded-xl bg-surface-container-lowest shadow-md overflow-hidden hover:shadow-xl transition-all duration-300 flex flex-col justify-between">
+<div class="relative h-48 w-full overflow-hidden">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-500" data-alt="Luxurious private family touring Sri Lankan tea bungalow gardens in Nuwara Eliya with misty mountains in background, warm afternoon natural sunlight" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuARZCvZYb5mRYWKEjabXlCY0Y7mis7hmpfoCZoDCKGJIaMQHG3NaVHSYMnM9sXbv3OVgop-DcwI5I-uztTD3kxMeCjR9_g1IQjgVvUbq1nuX-N3zenlXMJDWAilMk_wPp0q3fArrUiuSHfH9F4YR6enAkfBHh_gXiOf0BCG4-pFGfpE6JbFoKw1URLKQEZdZD2Y8pDiUuAzd9Diw1WAvnp3sGMkPWCdTnJdl55rK0xaW17Pt6f7b7CISA')">
+</div>
+<div class="absolute top-3 left-3 bg-surface/90 backdrop-blur-md px-3 py-1 rounded-full font-label-sm text-label-sm text-primary font-bold">
+              Bespoke
+            </div>
+</div>
+<div class="p-space-lg flex flex-col flex-grow justify-between">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-2">Tailor-Made Private Tours &amp; Family Holidays</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                Effortless multi-generational travel with kid-friendly wildlife reserves, spacious luxury vans, and relaxed schedules tailored to your loved ones.
+              </p>
+</div>
+<div class="mt-space-md pt-space-sm flex items-center justify-between text-primary font-title-md text-title-md">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary">Private &amp; Self-Paced</span>
+<span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">east</span>
+</div>
+</div>
+</div>
+<!-- Service Card 2 -->
+<div class="group relative rounded-xl bg-surface-container-lowest shadow-md overflow-hidden hover:shadow-xl transition-all duration-300 flex flex-col justify-between">
+<div class="relative h-48 w-full overflow-hidden">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-500" data-alt="Sri Lankan leopard resting gracefully on a granite boulder in Yala National Park surrounded by dry zone wilderness, golden dusk lighting" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBzeqzolPd69hzLQXxNiTi6t084gzPflqHL73bNkhYDKEVho65QJmHkVEmSwdm2_988piGWyosssb8N9DtbF_e2psZgXYqEKko3VwbN9mvYUymG4FSC67wtnxIUTpeNU0d9HvX9P9yEBzkCCdBbTG92kQIFvylgmbLhz7Lw3gyr5EszgWRagoesMR-To5YtzL7mHqo-mUb9CEC2U5zR8DUXqn6RIskVbEE6_IQ4anQvQxz_JNfjm1CZbA')">
+</div>
+<div class="absolute top-3 left-3 bg-surface/90 backdrop-blur-md px-3 py-1 rounded-full font-label-sm text-label-sm text-primary font-bold">
+              Wilderness
+            </div>
+</div>
+<div class="p-space-lg flex flex-col flex-grow justify-between">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-2">Luxury Wildlife Safaris &amp; Leopard Expeditions</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                Custom open-top 4x4 Land Cruisers driven by veteran naturalists through Yala, Wilpattu, and Minneriya for ethical big-game tracking.
+              </p>
+</div>
+<div class="mt-space-md pt-space-sm flex items-center justify-between text-primary font-title-md text-title-md">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary">Big Cat Expeditions</span>
+<span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">east</span>
+</div>
+</div>
+</div>
+<!-- Service Card 3 -->
+<div class="group relative rounded-xl bg-surface-container-lowest shadow-md overflow-hidden hover:shadow-xl transition-all duration-300 flex flex-col justify-between">
+<div class="relative h-48 w-full overflow-hidden">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-500" data-alt="Intimate tropical honeymoon setup on a secluded golden beach in Tangalle Sri Lanka with swaying coconut palms and turquoise Indian Ocean waves at dusk" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuD8JB7MDhYfA9H8pDndpUablYDW4tMoIgXBXJCs6GPIiJs-_8QSSVjuqXJsJFXnzNTk9A4oSD89Qd94RkyfMBUSa_YjDztrWNYZbnkA-n5K3Yrbwub-vscTPkBnQGGinqdiNH4mJ2oNyY_xz0OEeG1SNSUMaGeEve4s0L1R5tFILtOf4-rv7FpN2sD2xKzbuO-w0kX8Spl1WuyU9irLUBWhA_1cEWjO9AWI2jurXU-eMBh0czYlyjtITw')">
+</div>
+<div class="absolute top-3 left-3 bg-surface/90 backdrop-blur-md px-3 py-1 rounded-full font-label-sm text-label-sm text-primary font-bold">
+              Romance
+            </div>
+</div>
+<div class="p-space-lg flex flex-col flex-grow justify-between">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-2">Honeymoon &amp; Romance Packages</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                Private pool villas along the southern coast, private candlelight dinners on secluded cliff edges, and candlelit Ayurvedic couple's spa rituals.
+              </p>
+</div>
+<div class="mt-space-md pt-space-sm flex items-center justify-between text-primary font-title-md text-title-md">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary">Secluded Sanctuaries</span>
+<span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">east</span>
+</div>
+</div>
+</div>
+<!-- Service Card 4 -->
+<div class="group relative rounded-xl bg-surface-container-lowest shadow-md overflow-hidden hover:shadow-xl transition-all duration-300 flex flex-col justify-between">
+<div class="relative h-48 w-full overflow-hidden">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-500" data-alt="Majestic Sigiriya Lion Rock fortress standing high above lush green jungle canopy in ancient Sri Lanka with terracotta pathways and reflections" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCloX0RNB5PLDbt51SoC3o4kI9KMeLxeji9AQa7yYT2rNl43k2jAg39NK7py2XWab1J9719FPDQxODeOsRhbZdBNsl-87PJkyr-j-NZqqBjiU6K6-V9mJWHVqk5pFozegoCIFcg_-7QjR350DBVZg2iXNnJDl27tIsu_FismzcFWHnpAhKD64LrNk7Ty8hc55Pd0AT-Q3JQRp_KS3EQYiYV0O98ujMDzKBjQwPXrYjDbjmmXzeHpgZ_jQ')">
+</div>
+<div class="absolute top-3 left-3 bg-surface/90 backdrop-blur-md px-3 py-1 rounded-full font-label-sm text-label-sm text-primary font-bold">
+              Heritage
+            </div>
+</div>
+<div class="p-space-lg flex flex-col flex-grow justify-between">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-2">Cultural &amp; UNESCO Heritage Pilgrimages</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                VIP access to Sigiriya, the Temple of the Sacred Tooth Relic, and the Dutch Fort of Galle accompanied by esteemed university archaeologists.
+              </p>
+</div>
+<div class="mt-space-md pt-space-sm flex items-center justify-between text-primary font-title-md text-title-md">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary">Living History</span>
+<span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">east</span>
+</div>
+</div>
+</div>
+<!-- Service Card 5 -->
+<div class="group relative rounded-xl bg-surface-container-lowest shadow-md overflow-hidden hover:shadow-xl transition-all duration-300 flex flex-col justify-between">
+<div class="relative h-48 w-full overflow-hidden">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-500" data-alt="Luxury Mercedes touring van parked beside a scenic coastal road in southern Sri Lanka with ocean waves and coconut trees in background" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAD7qmzRNu0ctRlaBlLFEo_hy2YJCyBwfnRIM-SRX__dtEe3K7MQExoBIxgO3pLmrCikM1KmbdfjZczGaJilHuSm6MI90zM2dNqHUfhbhTicYmk0sM5X1llLxW8yKEJoH9cvVgH1QxJ7cR_Zvfu2L1vz8dtBSzUMRS1TDXX7HkiOkQZUacWLkxoL-xWj5yO9NrvQcnHMutha68d39JVDfEIzadapKLcsP9arZccvRkND-SBGjcNKlaNkA')">
+</div>
+<div class="absolute top-3 left-3 bg-surface/90 backdrop-blur-md px-3 py-1 rounded-full font-label-sm text-label-sm text-primary font-bold">
+              Mobility
+            </div>
+</div>
+<div class="p-space-lg flex flex-col flex-grow justify-between">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-2">Airport Transfers &amp; Chauffeur Rentals</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                24/7 Colombo BIA meet-and-greet with air-conditioned luxury sedans, SUVs, and high-roof executive vans equipped with onboard chilled king coconut water.
+              </p>
+</div>
+<div class="mt-space-md pt-space-sm flex items-center justify-between text-primary font-title-md text-title-md">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary">Premier Fleet</span>
+<span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">east</span>
+</div>
+</div>
+</div>
+<!-- Service Card 6 -->
+<div class="group relative rounded-xl bg-surface-container-lowest shadow-md overflow-hidden hover:shadow-xl transition-all duration-300 flex flex-col justify-between">
+<div class="relative h-48 w-full overflow-hidden">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-500" data-alt="Inspiring outdoor executive retreat meeting in a tropical modern open-air pavilion surrounded by lush bamboo and reflection ponds in Sri Lanka" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuA1G_99oCH1cknOmaa5jlejTT_GLl0JM_yl0hqgKcyW7c1y9DCCA6qbxBd9_oCMGtHFMzbCSr54f5WRMbl_2FLN7anDCBvjpaaUf3i6eNUPP6t5Uukh7aAokguZ0NqY6l8tU-oolribcLDkbGhHGdxmegGZWRxEUDr_O61CqGYRGBQoc5-yu4ZFANst-_-MkKZfjYIOyVtuF8eh7XVZwItsacyxSBnTW7DVloGNhY9BNqq1M79ODP6LlA')">
+</div>
+<div class="absolute top-3 left-3 bg-surface/90 backdrop-blur-md px-3 py-1 rounded-full font-label-sm text-label-sm text-primary font-bold">
+              Corporate &amp; Learning
+            </div>
+</div>
+<div class="p-space-lg flex flex-col flex-grow justify-between">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-2">Corporate Retreats &amp; Group Excursions</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                Rejuvenating team off-sites, architectural expeditions following Geoffrey Bawa's masterworks, and botanical research trips with seamless logistics.
+              </p>
+</div>
+<div class="mt-space-md pt-space-sm flex items-center justify-between text-primary font-title-md text-title-md">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary">Executive Group Care</span>
+<span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">east</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 5: Leadership & Island Guides Team Spotlight -->
+<section class="w-full py-16 md:py-24 bg-surface-container-low">
+<div class="max-w-[1280px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-space-xl gap-space-md">
+<div>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest font-bold">Human Touch</span>
+<h2 class="font-headline-xl text-headline-xl text-primary mt-1">Our Leadership &amp; Island Guides</h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md">
+          A cohesive team of native navigators, certified naturalists, and heritage conservationists committed to your comfort.
+        </p>
+</div>
+<!-- Team Members Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-space-lg">
+<!-- 1. Dinesh Jayawardena -->
+<div class="group flex flex-col bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300">
+<div class="relative aspect-square w-full overflow-hidden bg-surface-container">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-500" data-alt="Distinguished Sri Lankan business executive and travel founder in warm linen blazer standing near a Geoffrey Bawa tropical style courtyard, confident and warm expression" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAu9mNHtpjE301GbVJFEbceAOZ1Y5OhYKh4B9EWu0QE6lIxwVWBzJSc_gf_F92yCboMe9rkgxV3EWeGlxevVPPdAYuDOdgq9s_fHHAGHCZZHgXU_K2lVYaSj4ovxxf-61ZrwdaHtVAoVHTL_zCwN4ASYL5swbYE2tGph8l9hLC-67yUWx4a1HhnbDdUikCoM9H8DTdyUwkc7n1qRxG0I7z78PPIZzLfA1mjx69CtPdvTH47GRKiqYUVHQ')">
+</div>
+<div class="absolute bottom-3 left-3 bg-primary/90 text-on-primary text-[11px] font-label-sm px-2.5 py-0.5 rounded-full backdrop-blur-sm">
+              Founder
+            </div>
+</div>
+<div class="p-space-md flex flex-col flex-grow">
+<h3 class="font-title-lg text-title-lg text-primary">Dinesh Jayawardena</h3>
+<span class="font-label-sm text-label-sm text-secondary font-semibold mb-2">Managing Director &amp; Founder</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Over 15 years curating bespoke inbound journeys. Passionate advocate of regenerative tourism and ancient canal restorations.
+            </p>
+</div>
+</div>
+<!-- 2. Nadeeka Perera -->
+<div class="group flex flex-col bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300">
+<div class="relative aspect-square w-full overflow-hidden bg-surface-container">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-500" data-alt="Warm and welcoming portrait of a Sri Lankan female hospitality director in elegant modern attire smiling warmly in a bright sunlit colonial office" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDCHs7ldZ_XyLcARnP22wpyc_slzyVb3-651QMDxF9Z_-FQtATHmxtyzvqlH8zEHl4-1thI5IgVkKaV1C5vU_j2k79IN81DIRQxbsS7B5Oo9fXU-TC4aZJU3QoIsKuCihxYc9F-QI0sGNTjbqeOcyhm8v3vwZBF7BQX_0JwyTV8hB-xfkslage6vvy9KtsozQWx7nLwKr16A-YRsyFzzUgdB7Z1m6FkxEJPI2C76AyIs2siAR7BDYP5iw')">
+</div>
+<div class="absolute bottom-3 left-3 bg-secondary-container text-on-secondary-container text-[11px] font-label-sm px-2.5 py-0.5 rounded-full backdrop-blur-sm font-semibold">
+              Guest Care
+            </div>
+</div>
+<div class="p-space-md flex flex-col flex-grow">
+<h3 class="font-title-lg text-title-lg text-primary">Nadeeka Perera</h3>
+<span class="font-label-sm text-label-sm text-secondary font-semibold mb-2">Head of Guest Experience</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Specializes in hyper-personalized family itineraries, sensory tea tastings, and seamless luxury villa bookings.
+            </p>
+</div>
+</div>
+<!-- 3. Chaminda Silva (Featuring DATA:IMAGE:IMAGE_3) -->
+<div class="group flex flex-col bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300 ring-2 ring-secondary-container/50">
+<div class="relative aspect-square w-full overflow-hidden bg-surface-container">
+<img alt="Chaminda Silva - Senior Chauffeur Guide and Wildlife Specialist" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCsrKc6LbHJ_Spxldm3KWF2we8L_Xn-D76xBIId8eWPBWjY7qfdM1qr-zCiYFfNAvX7ekMXvx5h05QgS1cgkTufhl01wf33qnjM3ZmvF4NGNiJ9lWFdsTAwoAQ6BWZ6eTNr1Wn5elUwnQOfXpCmdnz0sZmeFxaDSNRCQ_mD2yHcFj7uN7wjUjpDt0TqhwC-_9-EaOfFjOhuDIWLVFV3ROKhc4TtWjuprPgGfn2sW236qSWii18AZf8D1A"/>
+<div class="absolute bottom-3 left-3 bg-primary-container text-on-primary text-[11px] font-label-sm px-2.5 py-0.5 rounded-full backdrop-blur-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[12px] text-tertiary-fixed">star</span>
+              Senior Guide
+            </div>
+</div>
+<div class="p-space-md flex flex-col flex-grow">
+<h3 class="font-title-lg text-title-lg text-primary">Chaminda Silva</h3>
+<span class="font-label-sm text-label-sm text-secondary font-semibold mb-2">Senior Chauffeur &amp; Wildlife Expert</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Veteran certified guide with 1,200+ safaris. Renowned for keen leopard tracking and effortless humor across highland roads.
+            </p>
+</div>
+</div>
+<!-- 4. Dr. Sarah Fernando -->
+<div class="group flex flex-col bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300">
+<div class="relative aspect-square w-full overflow-hidden bg-surface-container">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-500" data-alt="Portrait of a Sri Lankan female environmental scientist and heritage researcher in an outdoor field station with botanical garden background" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCUpsqgE1gtk2HTbOrk1rJ0dquq03clRohLtr5y7Ym83QUO6YCCEkT1WkbIKP0Zb2bXUUXpGGzi5k9-bTHjufUCEt9-OffRYEakT5r8ZxRyKHi4Yw8kPEgBfqmtGXrS0FQOstVMf1MZftLwUylzaMsOVLRjm5sGglBcqUGU2HX6-5UMG1LJUz-5d3R-nIev0tN03Rwj7ZMqv3yEVTFGFxa3ZDxBqCofR95ryg4wkbFW6YN-ibLB2gNz3A')">
+</div>
+<div class="absolute bottom-3 left-3 bg-tertiary-container text-on-tertiary text-[11px] font-label-sm px-2.5 py-0.5 rounded-full backdrop-blur-sm">
+              Conservation
+            </div>
+</div>
+<div class="p-space-md flex flex-col flex-grow">
+<h3 class="font-title-lg text-title-lg text-primary">Dr. Sarah Fernando</h3>
+<span class="font-label-sm text-label-sm text-secondary font-semibold mb-2">Eco-Tourism &amp; Heritage Advisor</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Oversees our ethical elephant viewing guidelines, carbon offset formulas, and authentic village artisan partnerships.
+            </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 6: Official Certifications, Affiliations & Accreditations -->
+<section class="w-full py-16 bg-surface">
+<div class="max-w-[1280px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin">
+<div class="bg-surface-container rounded-2xl p-space-xl shadow-sm">
+<div class="text-center max-w-2xl mx-auto mb-space-lg">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest font-bold">Strict Compliance &amp; Integrity</span>
+<h2 class="font-headline-sm text-headline-sm text-primary mt-1">Certified by Sri Lanka’s Highest Tourism Authorities</h2>
+</div>
+<!-- Badges Grid -->
+<div class="grid grid-cols-2 md:grid-cols-4 gap-space-md">
+<!-- Badge 1: SLTPB -->
+<div class="flex flex-col items-center justify-center p-space-md bg-surface-container-lowest rounded-xl text-center shadow-xs">
+<div class="w-12 h-12 rounded-full bg-primary-container/10 text-primary flex items-center justify-center mb-space-sm">
+<span class="material-symbols-outlined text-[26px]">account_balance</span>
+</div>
+<span class="font-title-md text-title-md text-primary font-bold">SLTPB Member</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant mt-1">Sri Lanka Tourism Promotion Bureau</span>
+</div>
+<!-- Badge 2: SLAITO -->
+<div class="flex flex-col items-center justify-center p-space-md bg-surface-container-lowest rounded-xl text-center shadow-xs">
+<div class="w-12 h-12 rounded-full bg-secondary-container/15 text-secondary flex items-center justify-center mb-space-sm">
+<span class="material-symbols-outlined text-[26px]" style="font-variation-settings: 'FILL' 1;">stars</span>
+</div>
+<span class="font-title-md text-title-md text-primary font-bold">SLAITO Certified</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant mt-1">Sri Lanka Inbound Tour Operators</span>
+</div>
+<!-- Badge 3: TripAdvisor -->
+<div class="flex flex-col items-center justify-center p-space-md bg-surface-container-lowest rounded-xl text-center shadow-xs">
+<div class="w-12 h-12 rounded-full bg-primary-container/10 text-primary flex items-center justify-center mb-space-sm">
+<span class="material-symbols-outlined text-[26px]" style="font-variation-settings: 'FILL' 1;">military_tech</span>
+</div>
+<span class="font-title-md text-title-md text-primary font-bold">TripAdvisor Choice</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant mt-1">Winner 2023 &amp; 2024 (Top 1%)</span>
+</div>
+<!-- Badge 4: WTTC Safe Travels -->
+<div class="flex flex-col items-center justify-center p-space-md bg-surface-container-lowest rounded-xl text-center shadow-xs">
+<div class="w-12 h-12 rounded-full bg-secondary-container/15 text-secondary flex items-center justify-center mb-space-sm">
+<span class="material-symbols-outlined text-[26px]" style="font-variation-settings: 'FILL' 1;">health_and_safety</span>
+</div>
+<span class="font-title-md text-title-md text-primary font-bold">Safe Travels Stamp</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant mt-1">World Travel &amp; Tourism Council</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Custom Trip CTA Banner -->
+<section class="w-full pb-20 bg-surface">
+<div class="max-w-[1280px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin">
+<div class="relative rounded-2xl bg-primary text-on-primary p-space-xl md:p-14 overflow-hidden shadow-xl flex flex-col md:flex-row items-center justify-between gap-space-xl">
+<div class="relative z-10 max-w-xl flex flex-col gap-space-sm text-center md:text-left">
+<span class="font-label-sm text-label-sm text-secondary-fixed uppercase tracking-widest font-bold">Start Your Discovery</span>
+<h2 class="font-headline-xl text-headline-xl text-on-primary">Ready to Craft Your Custom Ceylon Expedition?</h2>
+<p class="font-body-md text-body-md text-on-primary/80">
+            Speak directly with our local tour curators in Colombo. We will prepare an unhurried, private travel itinerary within 24 hours.
+          </p>
+</div>
+<div class="relative z-10 flex flex-col sm:flex-row items-center gap-space-md shrink-0">
+<a class="inline-flex items-center gap-space-xs bg-secondary-container text-on-secondary-container hover:bg-secondary hover:text-on-secondary transition-all font-title-md text-title-md px-space-xl py-3 rounded-full shadow-lg" data-path="plan-custom-trip" href="#">
+<span>Tailor My Journey</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+<a class="inline-flex items-center gap-space-xs bg-surface-container-lowest/15 hover:bg-surface-container-lowest/25 text-on-primary transition-all font-title-md text-title-md px-space-lg py-3 rounded-full backdrop-blur-sm" data-path="contact-us" href="#">
+<span class="material-symbols-outlined text-[18px]">call</span>
+<span>Talk to an Advisor</span>
+</a>
+</div>
+<!-- Decorative Subtle Backlight -->
+<div class="absolute -right-16 -top-16 w-80 h-80 bg-primary-container rounded-full blur-3xl opacity-50 pointer-events-none"></div>
+</div>
+</div>
+</section>
+</div></main><footer class="w-full bg-surface-container-low text-on-surface pt-space-xl pb-space-lg"><div class="max-w-[1280px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-xl pb-space-xl"><div class="flex flex-col gap-space-md"><div class="flex items-center gap-space-sm"><span class="font-headline-sm text-headline-sm text-primary tracking-tight">Lanka Travellers</span></div><p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">Curating conscious, high-touch journeys through Sri Lanka's emerald highlands, ancient fortresses, and coastal sanctuaries inspired by Geoffrey Bawa's timeless architectural ethos.</p><div class="flex flex-col gap-space-xs pt-space-xs"><div class="inline-flex items-center gap-space-xs px-space-sm py-1 bg-surface-container rounded-lg font-label-sm text-label-sm text-primary"><span class="material-symbols-outlined text-[16px]">verified_user</span><span>SLTDA Certified: #SLTDA/SQA/TA/01482</span></div><div class="inline-flex items-center gap-space-xs px-space-sm py-1 bg-surface-container rounded-lg font-label-sm text-label-sm text-on-surface-variant"><span class="material-symbols-outlined text-[16px] text-tertiary-container">eco</span><span>Zero Carbon &amp; Heritage Pledge</span></div></div></div><div class="flex flex-col gap-space-md"><h3 class="font-headline-sm text-headline-sm text-primary">Popular Tours</h3><ul class="flex flex-col gap-space-sm font-body-sm text-body-sm"><li class="flex items-center gap-2"><span class="material-symbols-outlined text-[14px] text-primary">chevron_right</span><a class="text-on-surface-variant hover:text-on-surface transition-colors" data-path="travel-packages" href="#">Sigiriya &amp; Cultural Triangle</a></li><li class="flex items-center gap-2"><span class="material-symbols-outlined text-[14px] text-primary">chevron_right</span><a class="text-on-surface-variant hover:text-on-surface transition-colors" data-path="travel-packages" href="#">Ella &amp; Hill Country Adventure</a></li><li class="flex items-center gap-2"><span class="material-symbols-outlined text-[14px] text-primary">chevron_right</span><a class="text-on-surface-variant hover:text-on-surface transition-colors" data-path="travel-packages" href="#">Southern Coast Safari &amp; Beaches</a></li><li class="flex items-center gap-2"><span class="material-symbols-outlined text-[14px] text-primary">chevron_right</span><a class="text-on-surface-variant hover:text-on-surface transition-colors" data-path="travel-packages" href="#">Ceylon Tea Trails &amp; Wildlife</a></li></ul></div><div class="flex flex-col gap-space-md"><h3 class="font-headline-sm text-headline-sm text-primary">Quick Links</h3><ul class="flex flex-col gap-space-sm font-body-sm text-body-sm"><li><a class="text-on-surface-variant hover:text-on-surface transition-colors" data-path="about-us" href="#">About Us</a></li><li><a class="text-on-surface-variant hover:text-on-surface transition-colors" data-path="plan-custom-trip" href="#">Custom Itinerary Planning</a></li><li><a class="text-on-surface-variant hover:text-on-surface transition-colors" data-path="responsible-travel" href="#">Responsible Travel Policy</a></li><li><a class="text-on-surface-variant hover:text-on-surface transition-colors" data-path="terms-and-conditions" href="#">Terms &amp; Conditions</a></li><li><a class="text-on-surface-variant hover:text-on-surface transition-colors" data-path="faqs" href="#">Frequently Asked Questions</a></li><li><a class="text-on-surface-variant hover:text-on-surface transition-colors" data-path="traveler-safety" href="#">Traveler Safety Guarantee</a></li></ul></div><div class="flex flex-col gap-space-md"><h3 class="font-headline-sm text-headline-sm text-primary">Headquarters</h3><div class="flex flex-col gap-space-sm font-body-sm text-body-sm text-on-surface-variant"><p class="flex items-start gap-2"><span class="material-symbols-outlined text-[18px] text-primary mt-0.5">location_on</span><span>No. 42, Galle Face Court, Colombo 03, Sri Lanka</span></p><p class="flex items-center gap-2"><span class="material-symbols-outlined text-[18px] text-primary">call</span><span>+94 11 234 5678</span></p><p class="flex items-center gap-2"><span class="material-symbols-outlined text-[18px] text-primary">mail</span><span>bookings@lankatravellers.com</span></p></div><div class="pt-space-xs"><div class="inline-flex items-center gap-space-xs px-space-md py-space-xs bg-surface rounded-full shadow-[0_2px_8px_rgba(22,78,61,0.04)]"><span class="material-symbols-outlined text-[16px] text-secondary">military_tech</span><span class="font-label-sm text-label-sm text-on-surface font-semibold">TripAdvisor 5-Star Certificate of Excellence</span></div></div><div class="flex items-center gap-space-sm pt-space-xs"><span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Follow:</span><a class="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center text-primary hover:bg-primary hover:text-on-primary transition-all font-label-sm text-label-sm" href="#">FB</a><a class="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center text-primary hover:bg-primary hover:text-on-primary transition-all font-label-sm text-label-sm" href="#">IG</a><a class="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center text-primary hover:bg-primary hover:text-on-primary transition-all font-label-sm text-label-sm" href="#">YT</a><a class="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center text-primary hover:bg-primary hover:text-on-primary transition-all font-label-sm text-label-sm" href="#">TA</a></div></div></div><div class="pt-space-lg flex flex-col md:flex-row items-center justify-between gap-space-md font-body-sm text-body-sm text-on-surface-variant"><div class="flex flex-col gap-1 text-center md:text-left"><p>© 2025 Lanka Travellers Ceylon Ltd. All rights reserved.</p><p class="font-label-sm text-label-sm text-outline">lankatravellers.wordpress.com — AI &amp; WordPress Compatible Agency Template • WCAG 2.1 AA Compliant</p></div><div class="flex flex-wrap items-center justify-center gap-space-xs font-label-sm text-label-sm"><span class="px-2 py-1 bg-surface-container rounded">VISA</span><span class="px-2 py-1 bg-surface-container rounded">Mastercard</span><span class="px-2 py-1 bg-surface-container rounded">AMEX</span><span class="px-2 py-1 bg-surface-container rounded">LankaPay</span><span class="px-2 py-1 bg-surface-container rounded">Secure SSL</span></div></div></div></footer></body></html>
